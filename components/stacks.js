@@ -14,7 +14,9 @@ import tailwindcssURL from "../public/tailwindcss.svg";
 import vercelURL from "../public/vercel.svg";
 
 export function setupStacks(element) {
-  element.innerHTML = /* HTML */ `<div class="flex flex-col items-center gap-8">
+  element.innerHTML = /* HTML */ `<div
+    class="flex flex-col items-center gap-16"
+  >
     <h2 class="font-medium text-4xl text-pink-600">Stacks</h2>
     <div class="flex gap-4 flex-wrap justify-center">
       <img
