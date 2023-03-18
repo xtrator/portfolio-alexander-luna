@@ -1,6 +1,6 @@
 export function setupInfo(element) {
   element.innerHTML = /* HTML */ `<div
-    class="flex items-center py-8 justify-center gap-[232px]"
+    class="flex items-center justify-between"
   >
     <div class="w-[484px] flex flex-col gap-8">
       <div class="flex flex-col gap-3">
