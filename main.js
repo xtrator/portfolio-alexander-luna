@@ -1,20 +1,10 @@
 import "./style.css";
+import { setupNav } from "./components/nav";
 
 document.querySelector("#app").innerHTML = `
-  <div class="text-red-300">
-    <h1>Hello World</h1>
+  <div class="text-gray-700 px-20">
+    <nav id="nav"></nav>
   </div>
 `;
 
-// setupElement(element)
-/*
-export function setupCounter(element) {
-  let counter = 0
-  const setCounter = (count) => {
-    counter = count
-    element.innerHTML = `count is ${counter}`
-  }
-  element.addEventListener('click', () => setCounter(counter + 1))
-  setCounter(0)
-}
-*/
+setupNav(document.querySelector("#nav"));
