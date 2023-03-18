@@ -1,7 +1,7 @@
 import "./style.css";
 
 document.querySelector("#app").innerHTML = `
-  <div>
+  <div class="text-red-300">
     <h1>Hello World</h1>
   </div>
 `;
