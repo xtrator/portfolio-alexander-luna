@@ -11,12 +11,13 @@ const projects = [
     siteURL: "https://vanilla-shopdrink.vercel.app/",
   },
   {
-    title: "real state template",
+    title: "Tweetable",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices lorem non feugiat egestas amet.",
+      "Tweetable is a lite app based off Twitter. This was my final project for the bootcamp Codeable that I was enrolled in. It features a backend built with NestJS and a frontend built with ReactJS",
     type: "web app",
-    imgURL: "",
-    link: "https://www.google.com",
+    imgURL: "https://i.imgur.com/7jiFrzL.png",
+    siteURL: "https://tailwind-tweetable.vercel.app/",
+    repoURL: "https://github.com/xtrator/tailwind-tweetable",
   },
 ];
 
