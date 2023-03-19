@@ -8,7 +8,7 @@ export function setupExperience(element) {
     </div>
     <div class="flex justify-center">
       <div
-        class="w-[40%] text-start border-t-2 border-pink-600 rounded-l-md pb-16 pr-16"
+        class="w-full sm:w-[40%] text-start border-t-2 border-pink-600 rounded-l-md pb-16 pr-16"
       >
         <p class="text-lg font-medium text-pink-600">Full Stack Engineer</p>
         <p class="text-xl">Garage Labs | Full-time</p>
@@ -26,13 +26,17 @@ export function setupExperience(element) {
         </p>
       </div>
       <div class="w-1 bg-pink-600"></div>
-      <div class="w-[40%] text-start relative bottom-3 left-3">Jul 2021</div>
+      <div class="w-[40%] text-start relative bottom-3 left-3 sm:block hidden">
+        Jul 2021
+      </div>
     </div>
     <div class="flex justify-center">
-      <div class="w-[40%] text-end relative bottom-3 right-3">Oct 2020</div>
+      <div class="w-[40%] text-end relative bottom-3 right-3 sm:block hidden">
+        Oct 2020
+      </div>
       <div class="w-1 bg-pink-600"></div>
       <div
-        class="w-[40%] border-t-2 border-pink-600 rounded-r-md pb-16 pl-16 text-end"
+        class="w-full sm:w-[40%] border-t-2 border-pink-600 rounded-r-md pb-16 pl-16 text-end"
       >
         <p class="text-lg font-medium text-pink-600">Freelance Web Developer</p>
         <p class="text-xl">UpWork - Contract</p>

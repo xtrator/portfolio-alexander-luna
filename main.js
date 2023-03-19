@@ -19,7 +19,7 @@ document.querySelector("#app").innerHTML = /* HTML */ `
     <section class="" id="info"></section>
     <section class="" id="stacks"></section>
     <section class="" id="projects-section"></section>
-    <section class="hidden" id="experience-section"></section>
+    <section class="" id="experience-section"></section>
   </div>
   <footer class="hidden" id="footer"></footer>
 `;
