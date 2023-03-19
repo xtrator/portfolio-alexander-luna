@@ -6,7 +6,7 @@ export function setupNav(element) {
     <div class="flex text-2xl gap-12">
       <p>About Me</p>
       <p>Projects</p>
-      <p>CV</p>
+      <p>Experience</p>
       <p>Contact</p>
     </div>
   </div>`;

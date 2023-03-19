@@ -13,22 +13,27 @@ export function setupInfo(element) {
         and backend applications. I hugely believe in team-work and cooperation,
         hence why I focus greatly on writing clean and readable code.
       </p>
-      <div>
-        <button
+      <div class="flex gap-4">
+        <a
+          href="#projects-section"
           class="border-2 border-gray-700 hover:text-white hover:bg-pink-600 hover:border-pink-600 rounded-md px-6 py-2 font-medium"
         >
           PROJECTS
-        </button>
-        <button
+        </a>
+        <a
+          href="https://www.linkedin.com/in/alexander-luna-santillan/"
+          target="_blank"
           class="border-2 border-gray-700 hover:text-white hover:bg-pink-600 hover:border-pink-600 rounded-md px-6 py-2 font-medium"
         >
           LINKEDIN
-        </button>
-        <button
+        </a>
+        <a
+          href="https://github.com/xtrator"
+          target="_blank"
           class="border-2 border-gray-700 hover:text-white hover:bg-pink-600 hover:border-pink-600 rounded-md px-6 py-2 font-medium"
         >
           GITHUB
-        </button>
+        </a>
       </div>
     </div>
     <div class="h-[594px] w-[484px] bg-pink-600"></div>
