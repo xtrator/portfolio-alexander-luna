@@ -8,12 +8,15 @@ import { setupExperience } from "./components/experience";
 import { setupFooter } from "./components/footer";
 
 document.querySelector("#app").innerHTML = /* HTML */ `
-  <img src="${backgroundURL}" class="absolute -z-10 right-0 top-0 w-[50%]" />
+  <img
+    src="${backgroundURL}"
+    class="absolute -z-10 right-0 top-0 w-full] lg:w-[50%]"
+  />
   <div
-    class="text-gray-700 lg:px-5 xl:px-20 flex flex-col gap-32 2xl:w-[70%] w-[90%] m-auto"
+    class="text-gray-700 lg:px-5 scale-75  sm:scale-100 -translate-y-28  xl:px-20 flex flex-col gap-32 2xl:w-[70%] w-[90%] m-auto"
   >
     <nav id="nav"></nav>
-    <section class="hidden" id="info"></section>
+    <section class="" id="info"></section>
     <section class="hidden" id="stacks"></section>
     <section class="hidden" id="projects-section"></section>
     <section class="hidden" id="experience-section"></section>
