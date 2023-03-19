@@ -7,7 +7,7 @@ export function setupModal(element) {
     </button>
     <div
       id="modal-nav"
-      class="fixed top-0 right-0 flex hidden h-full w-screen flex-col items-center justify-center bg-white text-2xl"
+      class="fixed top-0 right-0 hidden h-full w-screen flex-col items-center justify-center bg-white text-2xl"
     >
       <a class="hover:text-pink-600" href="#info">About Me</a>
       <a class="hover:text-pink-600" href="#projects-section">Projects</a>
@@ -19,8 +19,10 @@ export function setupModal(element) {
   const modalNav = document.querySelector("#modal-nav");
   burguer.addEventListener("click", (e) => {
     if (modalNav.classList.contains("hidden")) {
+      modalNav.classList.add("flex");
       modalNav.classList.remove("hidden");
     } else {
+      modalNav.classList.remove("flex");
       modalNav.classList.add("hidden");
     }
   });
