@@ -15,7 +15,7 @@ const projects = [
     description:
       "Tweetable is a lite app based off Twitter. This was my final project for the bootcamp Codeable that I was enrolled in. It features a backend built with NestJS and a frontend built with ReactJS",
     type: "web app",
-    imgURL: "https://i.imgur.com/7jiFrzL.png",
+    imgURL: "https://i.imgur.com/x7eLWGw.png",
     siteURL: "https://tailwind-tweetable.vercel.app/",
     repoURL: "https://github.com/xtrator/tailwind-tweetable",
   },
@@ -23,10 +23,10 @@ const projects = [
 
 export function setupProjects(element) {
   element.innerHTML = /* HTML */ `<div
-    class="flex flex-col items-center gap-16"
+    class="flex flex-col items-center gap-8 lg:gap-16"
   >
-    <h2 class="font-medium text-4xl text-pink-600">Projects</h2>
-    <div id="projects" class="flex flex-col gap-8"></div>
+    <h2 class="text-4xl font-medium text-pink-600">Projects</h2>
+    <div id="projects" class="flex flex-col gap-8 lg:gap-16"></div>
   </div>`;
 
   renderProjects({ element: document.querySelector("#projects"), projects });
