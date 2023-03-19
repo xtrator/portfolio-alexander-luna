@@ -1,7 +1,7 @@
 import "./style.css";
 import { setupNav } from "./components/nav";
 import { setupInfo } from "./components/info";
-import backgroundURL from "./public/background.svg";
+import backgroundURL from "./src/background.svg";
 import { setupStacks } from "./components/stacks";
 import { setupProjects } from "./components/projects";
 import { setupExperience } from "./components/experience";
