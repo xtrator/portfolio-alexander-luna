@@ -18,36 +18,63 @@ export function setupStacks(element) {
     class="flex flex-col items-center gap-16"
   >
     <h2 class="font-medium text-4xl text-pink-600">Stacks</h2>
-    <div class="flex gap-4 flex-wrap justify-center">
+    <div class="flex gap-4 flex-wrap justify-center sm:p-[10%]">
       <img
         src="${atlassianURL}"
-        class="w-28 h-28 bg-pink-100 p-4 rounded-full"
+        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
       />
-      <img src="${awsec2URL}" class="w-28 h-28 bg-pink-100 p-4 rounded-full" />
-      <img src="${expressURL}" class="w-28 h-28 bg-pink-100 p-4 rounded-full" />
-      <img src="${gitURL}" class="w-28 h-28 bg-pink-100 p-4 rounded-full" />
+      <img
+        src="${awsec2URL}"
+        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+      />
+      <img
+        src="${expressURL}"
+        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+      />
+      <img
+        src="${gitURL}"
+        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+      />
       <img
         src="${javascriptURL}"
-        class="w-28 h-28 bg-pink-100 p-4 rounded-full"
+        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
       />
       <img
         src="${linuxtuxURL}"
-        class="w-28 h-28 bg-pink-100 p-4 rounded-full"
+        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
       />
-      <img src="${mongodbURL}" class="w-28 h-28 bg-pink-100 p-4 rounded-full" />
-      <img src="${nodejsURL}" class="w-28 h-28 bg-pink-100 p-4 rounded-full" />
+      <img
+        src="${mongodbURL}"
+        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+      />
+      <img
+        src="${nodejsURL}"
+        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+      />
       <img
         src="${postgresqlURL}"
-        class="w-28 h-28 bg-pink-100 p-4 rounded-full"
+        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
       />
-      <img src="${reactURL}" class="w-28 h-28 bg-pink-100 p-4 rounded-full" />
-      <img src="${rubyURL}" class="w-28 h-28 bg-pink-100 p-4 rounded-full" />
-      <img src="${slackURL}" class="w-28 h-28 bg-pink-100 p-4 rounded-full" />
+      <img
+        src="${reactURL}"
+        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+      />
+      <img
+        src="${rubyURL}"
+        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+      />
+      <img
+        src="${slackURL}"
+        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+      />
       <img
         src="${tailwindcssURL}"
-        class="w-28 h-28 bg-pink-100 p-4 rounded-full"
+        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
       />
-      <img src="${vercelURL}" class="w-28 h-28 bg-pink-100 p-4 rounded-full" />
+      <img
+        src="${vercelURL}"
+        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+      />
     </div>
   </div>`;
 }
