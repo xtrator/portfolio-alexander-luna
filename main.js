@@ -4,6 +4,7 @@ import { setupInfo } from "./components/info";
 import backgroundURL from "./public/background.svg";
 import { setupStacks } from "./components/stacks";
 import { setupProjects } from "./components/projects";
+import { setupExperience } from "./components/experience";
 
 document.querySelector("#app").innerHTML = /* HTML */ `
   <img src="${backgroundURL}" class="absolute -z-10 right-0 top-0 w-[50%]" />
@@ -14,6 +15,7 @@ document.querySelector("#app").innerHTML = /* HTML */ `
     <section id="info"></section>
     <section id="stacks"></section>
     <section id="projects-section"></section>
+    <section id="experience-section"></section>
   </div>
   <footer class="bg-gray-800 h-[100px] mt-16"></footer>
 `;
@@ -22,3 +24,4 @@ setupNav(document.querySelector("#nav"));
 setupInfo(document.querySelector("#info"));
 setupStacks(document.querySelector("#stacks"));
 setupProjects(document.querySelector("#projects-section"));
+setupExperience(document.querySelector("#experience-section"));
