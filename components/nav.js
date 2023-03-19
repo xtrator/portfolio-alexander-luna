@@ -1,3 +1,5 @@
+import { setupModal } from "./modal";
+
 export function setupNav(element) {
   element.innerHTML = /* HTML */ `<div
     class="justify-between py-4 text-center lg:flex"
@@ -9,5 +11,8 @@ export function setupNav(element) {
       <a class="hover:text-pink-600" href="#experience-section">Experience</a>
       <a class="hover:text-pink-600" href="#footer">Contact</a>
     </div>
+    <div id="modal"></div>
   </div>`;
+
+  setupModal(document.querySelector("#modal"));
 }
