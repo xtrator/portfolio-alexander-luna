@@ -13,7 +13,7 @@ document.querySelector("#app").innerHTML = /* HTML */ `
     <nav id="nav"></nav>
     <section id="info"></section>
     <section id="stacks"></section>
-    <section id="projects"></section>
+    <section id="projects-section"></section>
   </div>
   <footer class="bg-gray-800 h-[100px] mt-16"></footer>
 `;
@@ -21,4 +21,4 @@ document.querySelector("#app").innerHTML = /* HTML */ `
 setupNav(document.querySelector("#nav"));
 setupInfo(document.querySelector("#info"));
 setupStacks(document.querySelector("#stacks"));
-setupProjects(document.querySelector("#projects"));
+setupProjects(document.querySelector("#projects-section"));

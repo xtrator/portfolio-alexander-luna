@@ -41,7 +41,7 @@ export function renderProjects({ element, projects }) {
             <span class="font-thin">${p.description.split(".")[0]}.</span>
             <span>${p.description.split(".").slice(1).join("")}.</span>
           </p>
-          <p class="mt-6">Web App</p>
+          <p class="mt-6">${p.type.toUpperCase()}</p>
           <a
             href="${p.link}"
             target="_blank"
