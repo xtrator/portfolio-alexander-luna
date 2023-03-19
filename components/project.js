@@ -33,14 +33,14 @@ export function renderProjects({ element, projects }) {
             target="_blank"
             class="border border-gray-400 hover:text-white hover:bg-pink-600 hover:border-pink-600 rounded-full px-6 py-2 font-medium"
           >
-            VIEW REPO >
+            REPO >
           </a>
           <a
             href="${p.siteURL}"
             target="_blank"
             class="border border-gray-400 hover:text-white hover:bg-pink-600 hover:border-pink-600 rounded-full px-6 py-2 font-medium"
           >
-            VIEW SITE >
+            SITE >
           </a></div>
         </div>
       </div>`;
