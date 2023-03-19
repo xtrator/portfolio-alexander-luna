@@ -6,8 +6,9 @@ const projects = [
     description:
       "Shopdrink is a drink store built entirely with tailwindcss and vanillaJS. This store fetches drinks data from an expressJS API. Drink database is hosted in MongoDB Atlas",
     type: "web app",
-    imgURL: "",
-    link: "https://www.google.com",
+    imgURL: "https://i.imgur.com/Lszk4Yd.png",
+    repoURL: "https://github.com/xtrator/vanilla-shopdrink",
+    siteURL: "https://vanilla-shopdrink.vercel.app/",
   },
   {
     title: "real state template",
