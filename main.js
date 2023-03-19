@@ -13,11 +13,11 @@ document.querySelector("#app").innerHTML = /* HTML */ `
     class="absolute right-0 top-0 -z-10 w-full lg:w-[50%]"
   />
   <div
-    class="m-auto flex w-[350px] flex-col gap-8 text-gray-700 sm:w-[600px] lg:w-[1024px] lg:gap-16 2xl:w-[1500px]"
+    class="m-auto flex w-[350px] flex-col gap-16 text-gray-700 sm:w-[600px] lg:w-[1024px] lg:gap-24 2xl:w-[1500px]"
   >
     <nav id="nav"></nav>
     <section class="" id="info"></section>
-    <section class="hidden" id="stacks"></section>
+    <section class="" id="stacks"></section>
     <section class="hidden" id="projects-section"></section>
     <section class="hidden" id="experience-section"></section>
   </div>

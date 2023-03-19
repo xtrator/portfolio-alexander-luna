@@ -15,65 +15,65 @@ import vercelURL from "../src/vercel.svg";
 
 export function setupStacks(element) {
   element.innerHTML = /* HTML */ `<div
-    class="flex flex-col items-center gap-16"
+    class="flex flex-col items-center gap-8 lg:gap-16"
   >
-    <h2 class="font-medium text-4xl text-pink-600">Stacks</h2>
-    <div class="flex gap-4 flex-wrap justify-center sm:p-[10%]">
+    <h2 class="text-4xl font-medium text-pink-600">Stacks</h2>
+    <div class="flex flex-wrap justify-center gap-4">
       <img
         src="${atlassianURL}"
-        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+        class="h-14 w-14 rounded-full bg-pink-100 p-1 lg:h-28 lg:w-28 lg:p-4"
       />
       <img
         src="${awsec2URL}"
-        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+        class="h-14 w-14 rounded-full bg-pink-100 p-1 lg:h-28 lg:w-28 lg:p-4"
       />
       <img
         src="${expressURL}"
-        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+        class="h-14 w-14 rounded-full bg-pink-100 p-1 lg:h-28 lg:w-28 lg:p-4"
       />
       <img
         src="${gitURL}"
-        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+        class="h-14 w-14 rounded-full bg-pink-100 p-1 lg:h-28 lg:w-28 lg:p-4"
       />
       <img
         src="${javascriptURL}"
-        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+        class="h-14 w-14 rounded-full bg-pink-100 p-1 lg:h-28 lg:w-28 lg:p-4"
       />
       <img
         src="${linuxtuxURL}"
-        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+        class="h-14 w-14 rounded-full bg-pink-100 p-1 lg:h-28 lg:w-28 lg:p-4"
       />
       <img
         src="${mongodbURL}"
-        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+        class="h-14 w-14 rounded-full bg-pink-100 p-1 lg:h-28 lg:w-28 lg:p-4"
       />
       <img
         src="${nodejsURL}"
-        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+        class="h-14 w-14 rounded-full bg-pink-100 p-1 lg:h-28 lg:w-28 lg:p-4"
       />
       <img
         src="${postgresqlURL}"
-        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+        class="h-14 w-14 rounded-full bg-pink-100 p-1 lg:h-28 lg:w-28 lg:p-4"
       />
       <img
         src="${reactURL}"
-        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+        class="h-14 w-14 rounded-full bg-pink-100 p-1 lg:h-28 lg:w-28 lg:p-4"
       />
       <img
         src="${rubyURL}"
-        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+        class="h-14 w-14 rounded-full bg-pink-100 p-1 lg:h-28 lg:w-28 lg:p-4"
       />
       <img
         src="${slackURL}"
-        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+        class="h-14 w-14 rounded-full bg-pink-100 p-1 lg:h-28 lg:w-28 lg:p-4"
       />
       <img
         src="${tailwindcssURL}"
-        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+        class="h-14 w-14 rounded-full bg-pink-100 p-1 lg:h-28 lg:w-28 lg:p-4"
       />
       <img
         src="${vercelURL}"
-        class="lg:w-28 lg:h-28 w-14 h-14 bg-pink-100 p-1 lg:p-4 rounded-full"
+        class="h-14 w-14 rounded-full bg-pink-100 p-1 lg:h-28 lg:w-28 lg:p-4"
       />
     </div>
   </div>`;
