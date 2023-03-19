@@ -10,21 +10,23 @@ export function renderProjects({ element, projects }) {
         <div
           class="w-[590px] h-[490px] flex flex-col justify-center items-start"
         >
-          <p>${p.title}</p>
+          <p class="text-xl font-medium text-pink-600">
+            ${p.title.toUpperCase()}
+          </p>
           <p class="mt-4 text-2xl">
             <span class="font-thin"
-              >Lorem ipsum dolor sit amet, consectetur</span
+              >${p.description.slice(0, p.description.indexOf(".") + 1)}</span
             >
-            <span
-              >adipiscing elit. Ultrices lorem non feugiat egestas amet.</span
-            >
+            <span>${p.description.slice(p.description.indexOf(".") + 1)}</span>
           </p>
-          <p class="mt-6">Web App</p>
-          <button
+          <p class="mt-6">${p.type.toUpperCase()}</p>
+          <a
+            href="${p.link}"
+            target="_blank"
             class="mt-8 border border-gray-400 hover:text-white hover:bg-pink-600 hover:border-pink-600 rounded-full px-6 py-2 font-medium"
           >
             VIEW WORK >
-          </button>
+          </a>
         </div>
       </div>`;
     } else {
@@ -32,21 +34,21 @@ export function renderProjects({ element, projects }) {
         class="flex justify-center 2xl:gap-[10%] gap-[5%]"
       >
         <div class="w-[590px] h-[490px] flex flex-col justify-center items-end">
-          <p>${p.title}</p>
+          <p class="text-xl font-medium text-pink-600">
+            ${p.title.toUpperCase()}
+          </p>
           <p class="mt-4 text-2xl text-end">
-            <span class="font-thin"
-              >Lorem ipsum dolor sit amet, consectetur</span
-            >
-            <span
-              >adipiscing elit. Ultrices lorem non feugiat egestas amet.</span
-            >
+            <span class="font-thin">${p.description.split(".")[0]}.</span>
+            <span>${p.description.split(".").slice(1).join("")}.</span>
           </p>
           <p class="mt-6">Web App</p>
-          <button
+          <a
+            href="${p.link}"
+            target="_blank"
             class="mt-8 border border-gray-400 hover:text-white hover:bg-pink-600 hover:border-pink-600 rounded-full px-6 py-2 font-medium"
           >
             VIEW WORK >
-          </button>
+          </a>
         </div>
         <div class="w-[590px] h-[490px] bg-pink-300 rounded-3xl"></div>
       </div>`;

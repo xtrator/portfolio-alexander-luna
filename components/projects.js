@@ -2,9 +2,9 @@ import { renderProjects } from "./project";
 
 const projects = [
   {
-    title: "real state template",
+    title: "Shopdrink",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices lorem non feugiat egestas amet.",
+      "Shopdrink is a drink store built entirely with tailwindcss and vanillaJS. This store fetches drinks data from an expressJS API. Drink database is hosted in MongoDB Atlas",
     type: "web app",
     imgURL: "",
     link: "https://www.google.com",
