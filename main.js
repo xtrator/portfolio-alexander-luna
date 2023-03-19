@@ -18,7 +18,7 @@ document.querySelector("#app").innerHTML = /* HTML */ `
     <nav id="nav"></nav>
     <section class="" id="info"></section>
     <section class="" id="stacks"></section>
-    <section class="hidden" id="projects-section"></section>
+    <section class="" id="projects-section"></section>
     <section class="hidden" id="experience-section"></section>
   </div>
   <footer class="hidden" id="footer"></footer>

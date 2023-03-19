@@ -4,13 +4,13 @@ export function renderProjects({ element, projects }) {
 
     if (i % 2 == 0 /* even */) {
       output = /* HTML */ `<div
-        class="flex justify-center 2xl:gap-[10%] gap-[5%]"
+        class="flex flex-col xl:flex-row justify-center 2xl:gap-[10%] gap-[5%]"
       >
-        <img class="w-[590px] h-[490px] bg-pink-300 rounded-3xl shadow-lg" src="${
+        <img class=" w-[440px] sm:w-[590px] sm:h-[490px] bg-pink-300 rounded-3xl shadow-lg" src="${
           p.imgURL
         }"></img>
         <div
-          class="w-[590px] h-[490px] flex flex-col justify-center items-start"
+          class="w-[440px] sm:w-[590px] sm:h-[490px] flex flex-col justify-center items-start"
         >
           <p class="text-xl font-medium text-pink-600">
             ${p.title.toUpperCase()}
@@ -41,9 +41,9 @@ export function renderProjects({ element, projects }) {
       </div>`;
     } else {
       output = /* HTML */ `<div
-        class="flex justify-center 2xl:gap-[10%] gap-[5%]"
+        class="flex flex-col-reverse xl:flex-row justify-center 2xl:gap-[10%] gap-[5%]"
       >
-        <div class="w-[590px] h-[490px] flex flex-col justify-center items-end">
+        <div class="w-[440px] sm:w-[590px] sm:h-[490px] flex flex-col justify-center items-end">
           <p class="text-xl font-medium text-pink-600">
             ${p.title.toUpperCase()}
           </p>
@@ -70,7 +70,7 @@ export function renderProjects({ element, projects }) {
             VIEW SITE >
           </a></div>
         </div>
-        <img class="w-[590px] h-[490px] bg-pink-300 rounded-3xl shadow-lg" src="${
+        <img class=" w-[440px] sm:w-[590px] sm:h-[490px] bg-pink-300 rounded-3xl shadow-lg" src="${
           p.imgURL
         }"></img>
       </div>`;
@@ -79,5 +79,7 @@ export function renderProjects({ element, projects }) {
     return output;
   });
 
-  element.innerHTML = projectsHTML.join("");
+  element.innerHTML = /* HTML */ `<div class="flex flex-col gap-16">
+    ${projectsHTML.join("")}
+  </div>`;
 }
