@@ -10,16 +10,16 @@ import { setupFooter } from "./components/footer";
 document.querySelector("#app").innerHTML = /* HTML */ `
   <img
     src="${backgroundURL}"
-    class="absolute -z-10 right-0 top-0 w-full] lg:w-[50%]"
+    class="absolute right-0 top-0 -z-10 w-full lg:w-[50%]"
   />
   <div
-    class="text-gray-700 lg:px-5 scale-75 -translate-y-[10%] sm:-translate-y-0  sm:scale-100 xl:px-20 flex flex-col gap-32 2xl:w-[70%] lg:w-[90%] m-auto"
+    class="m-auto flex w-[350px] flex-col gap-8 text-gray-700 sm:w-[600px] lg:w-[1024px] lg:gap-16 2xl:w-[1500px]"
   >
     <nav id="nav"></nav>
     <section class="" id="info"></section>
-    <section class="" id="stacks"></section>
-    <section class="" id="projects-section"></section>
-    <section class="" id="experience-section"></section>
+    <section class="hidden" id="stacks"></section>
+    <section class="hidden" id="projects-section"></section>
+    <section class="hidden" id="experience-section"></section>
   </div>
   <footer class="hidden" id="footer"></footer>
 `;
