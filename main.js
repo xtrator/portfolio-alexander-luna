@@ -10,15 +10,15 @@ import { setupFooter } from "./components/footer";
 document.querySelector("#app").innerHTML = /* HTML */ `
   <img src="${backgroundURL}" class="absolute -z-10 right-0 top-0 w-[50%]" />
   <div
-    class="text-gray-700 px-20 flex flex-col gap-32 2xl:w-[70%] w-[90%] m-auto"
+    class="text-gray-700 lg:px-5 xl:px-20 flex flex-col gap-32 2xl:w-[70%] w-[90%] m-auto"
   >
     <nav id="nav"></nav>
-    <section id="info"></section>
-    <section id="stacks"></section>
-    <section id="projects-section"></section>
-    <section id="experience-section"></section>
+    <section class="hidden" id="info"></section>
+    <section class="hidden" id="stacks"></section>
+    <section class="hidden" id="projects-section"></section>
+    <section class="hidden" id="experience-section"></section>
   </div>
-  <footer id="footer"></footer>
+  <footer class="hidden" id="footer"></footer>
 `;
 
 setupNav(document.querySelector("#nav"));
