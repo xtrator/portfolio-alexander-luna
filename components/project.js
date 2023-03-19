@@ -38,8 +38,10 @@ export function renderProjects({ element, projects }) {
             ${p.title.toUpperCase()}
           </p>
           <p class="mt-4 text-2xl text-end">
-            <span class="font-thin">${p.description.split(".")[0]}.</span>
-            <span>${p.description.split(".").slice(1).join("")}.</span>
+            <span class="font-thin"
+              >${p.description.slice(0, p.description.indexOf(".") + 1)}</span
+            >
+            <span>${p.description.slice(p.description.indexOf(".") + 1)}</span>
           </p>
           <p class="mt-6">${p.type.toUpperCase()}</p>
           <a
