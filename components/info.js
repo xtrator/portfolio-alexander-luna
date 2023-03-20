@@ -38,7 +38,7 @@ export function setupInfo(element) {
     </div>
     <img
       class="w-full shadow-xl sm:w-[512px]"
-      src="https://i.imgur.com/nLw9E02.png"
+      src="https://i.imgur.com/ZP3a3FU.png"
     />
   </div>`;
 }
