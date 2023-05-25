@@ -2,6 +2,14 @@ import { renderProjects } from "./project";
 
 const projects = [
   {
+    title: "Kitchen Display System",
+    description: "A barebones tool for kitchen staff to update orders and keep track of orders as they change status. Technologies used to build this project are React, Redux, styled-components, Typescrit and Firebase.",
+    type: "web app",
+    imgURL: "https://i.imgur.com/PrzYHrV.png",
+    repoURL: "https://github.com/xtrator/kitchen-display-system",
+    siteURL: "https://kitchen-display-system.vercel.app/"
+  },
+  {
     title: "Shopdrink",
     description:
       "Shopdrink is a drink store built entirely with tailwindcss and vanillaJS. This store fetches drinks data from an expressJS API. Drink database is hosted in MongoDB Atlas",
@@ -9,16 +17,7 @@ const projects = [
     imgURL: "https://i.imgur.com/Lszk4Yd.png",
     repoURL: "https://github.com/xtrator/vanilla-shopdrink",
     siteURL: "https://vanilla-shopdrink.vercel.app/",
-  },
-  {
-    title: "Tweetable",
-    description:
-      "Tweetable is a lite app based off Twitter. This was my final project for the bootcamp Codeable that I was enrolled in. It features a backend built with NestJS and a frontend built with ReactJS",
-    type: "web app",
-    imgURL: "https://i.imgur.com/x7eLWGw.png",
-    siteURL: "https://tailwind-tweetable.vercel.app/",
-    repoURL: "https://github.com/xtrator/tailwind-tweetable",
-  },
+  }
 ];
 
 export function setupProjects(element) {
